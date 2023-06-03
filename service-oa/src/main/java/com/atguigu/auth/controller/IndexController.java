@@ -62,6 +62,7 @@ public class IndexController {
         System.out.println("token = " + token);
         System.out.println("git3 map = " + map);
         System.out.println(" hot-fix " );
+        System.out.println(" hot-fix CHT" );
         map.put("token",token);
         return Result.ok(map);
     }
