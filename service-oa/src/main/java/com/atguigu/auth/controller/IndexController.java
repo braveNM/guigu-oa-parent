@@ -60,7 +60,7 @@ public class IndexController {
         //7、返回
         Map<String,Object> map = new HashMap<>();
         System.out.println("token = " + token);
-        System.out.println("git3 map = " + map);
+        System.out.println("map = " + map);
         map.put("token",token);
         return Result.ok(map);
     }
