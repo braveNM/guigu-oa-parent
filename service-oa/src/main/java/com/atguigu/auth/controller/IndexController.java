@@ -59,6 +59,7 @@ public class IndexController {
         String token = JwtHelper.createToken(sysUser.getId(), sysUser.getUsername());
         //7、返回
         Map<String,Object> map = new HashMap<>();
+        System.out.println("token = " + token);
         map.put("token",token);
         return Result.ok(map);
     }
