@@ -61,6 +61,7 @@ public class IndexController {
         Map<String,Object> map = new HashMap<>();
         System.out.println("token = " + token);
         System.out.println("git3 map = " + map);
+        System.out.println(" hot-fix " );
         map.put("token",token);
         return Result.ok(map);
     }
